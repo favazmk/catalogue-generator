@@ -1,4 +1,3 @@
-import React from 'react';
 import { PDFViewer, PDFDownloadLink } from '@react-pdf/renderer';
 import { X, Download } from 'lucide-react';
 import { PDFCatalogue } from './PDFDocument';

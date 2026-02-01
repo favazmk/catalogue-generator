@@ -1,5 +1,4 @@
-import React from 'react';
-import { Page, Text, View, Document, StyleSheet, Image, Font, Link } from '@react-pdf/renderer';
+import { Page, Text, View, Document, StyleSheet, Image, Link } from '@react-pdf/renderer';
 import type { Product } from '../context/CatalogueContext';
 
 // Register fonts if needed, but standard defaults work for "Clean".

@@ -1,4 +1,4 @@
-import React, { useCallback } from 'react';
+import { useCallback } from 'react';
 import { useDropzone } from 'react-dropzone';
 import { Image as ImageIcon, FileSpreadsheet, CheckCircle2 } from 'lucide-react';
 import clsx from 'clsx';

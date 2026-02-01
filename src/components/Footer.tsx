@@ -1,4 +1,3 @@
-import React from 'react';
 import { FileDown, Layers } from 'lucide-react';
 
 interface FooterProps {
