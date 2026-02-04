@@ -10,6 +10,18 @@ const styles = StyleSheet.create({
         backgroundColor: '#FFFFFF',
         padding: 40,
     },
+    logoHeader: {
+        position: 'absolute',
+        top: 20,
+        left: 40,
+        width: 60,
+        height: 60,
+    },
+    logo: {
+        width: '100%',
+        height: '100%',
+        objectFit: 'contain',
+    },
     productContainer: {
         marginBottom: 20,
         flexGrow: 1,
@@ -120,6 +132,11 @@ export function PDFCatalogue({ products }: PDFCatalogueProps) {
         <Document>
             {products.map((product) => (
                 <Page key={product.id} size="A4" style={styles.page}>
+                    {/* Company Logo Header */}
+                    <View style={styles.logoHeader}>
+                        <Image src="/company-logo.png" style={styles.logo} />
+                    </View>
+
                     <View style={styles.productContainer}>
 
                         {/* Image Center */}
